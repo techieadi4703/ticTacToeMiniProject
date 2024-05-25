@@ -53,10 +53,10 @@ function showModeSelection() {
 function changeTurn() {
     if (turn === "X") {
         turn = "O";
-        document.querySelector(".bg").style.left = "85px";
+        document.querySelector(".bg").style.bottom = "25px";
     } else {
         turn = "X";
-        document.querySelector(".bg").style.left = "0";
+        document.querySelector(".bg").style.bottom= "0";
     }
 }
 
