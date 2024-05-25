@@ -12,7 +12,8 @@
 }
 
 body {
-    background:linear-gradient(90deg,#09085b,#d4b9ff,#3232a6,#3232a6,#d4b9ff,#09085b);    
+    /* background:linear-gradient(90deg,#09085b,#d4b9ff,#3232a6,#3232a6,#d4b9ff,#09085b);     */
+    background-image: url(desktop-wallpaper-tic-tac-toe.jpg);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -26,6 +27,7 @@ body {
 }
 
 #mode-selection button {
+    color: #000;
     background-color: #F4538A;
     padding: 10px 25px;
     border: none;
@@ -62,16 +64,17 @@ body {
     font-weight: 700;
 }
 
-.turn-container .turn-box:nth-child(even) {
+/* .turn-container .turn-box:nth-child(even) {
     border-right: none;
-}
+} */
 
 .bg {
     position: absolute;
+    margin-bottom: 10px;
     bottom: 0;
     left: 0;
-    width: 85px;
-    height: 40px;
+    width: 100%;
+    height: 30px;
     background-color: #FF2E63;
     z-index: -1;
 }
